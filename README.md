@@ -6,7 +6,7 @@ Collection of useful Linux privilege escalation exploits in 2022, which worked l
 
 Polkit (formerly PolicyKit) is a component for controlling system-wide privileges in Unix-like operating systems. It provides an organized way for non-privileged processes to communicate with privileged processes. It is also possible to use polkit to execute commands with elevated privileges using the command pkexec followed by the command intended to be executed (with root permission). 
 
-# How to use:
+### How to use:
 
 ```
 ./PwnKit
@@ -25,6 +25,6 @@ On March 7, 2022, Max Kellermann publicly disclosed a vulnerability in the Linux
 
 While easier to exploit, it is similar to an older vulnerability disclosed in 2016, Dirty COW, which has been actively exploited by malicious actors since then.
 
-# How to use
+### How to use
 
 ![image](https://user-images.githubusercontent.com/57206134/159064377-23df736d-a613-4dc6-aea2-87f4476e06fc.png)
