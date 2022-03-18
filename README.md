@@ -1,6 +1,6 @@
 # LINPWN COLLECTION
 
-Collection of useful Linux privilege escalation exploits in 2022, which worked during pentest engagements.
+Collection of useful Linux privilege escalation exploits in 2022, which worked like a charm during pentest engagements.
 
 ## PwnKit: Local Privilege Escalation Vulnerability Discovered in polkit’s pkexec (CVE-2021-4034)
 
