@@ -1,6 +1,6 @@
 # LINPWN COLLECTION
 
-Collection of useful Linux privilege escalation exploits in 2022, which worked like a charm during pentest engagements.
+Collection of useful Linux privilege escalation exploits in 2022, which worked like a charm during pentest engagements. High probability to work, easy to use, get instant root.
 
 
 ## Dirty Pipe - a vulnerability in the Linux kernel since 5.8 which allows overwriting data in arbitrary read-only files (CVE-2022-0847)
