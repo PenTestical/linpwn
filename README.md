@@ -10,7 +10,6 @@ How to use:
 
 ```./PwnKit```
 
-```# whoami```
-
-```root``` 
+```# whoami
+root``` 
 
