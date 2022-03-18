@@ -1,4 +1,4 @@
-# LINPWN COLLECTION
+# LINPWN COLLECTION 2022
 
 Collection of useful Linux privilege escalation exploits in 2022, which worked like a charm during pentest engagements. High probability to work, easy to use, get instant root.
 
