@@ -2,22 +2,6 @@
 
 Collection of useful Linux privilege escalation exploits in 2022, which worked like a charm during pentest engagements.
 
-## PwnKit: Local Privilege Escalation Vulnerability Discovered in polkit’s pkexec (CVE-2021-4034)
-
-Polkit (formerly PolicyKit) is a component for controlling system-wide privileges in Unix-like operating systems. It provides an organized way for non-privileged processes to communicate with privileged processes. It is also possible to use polkit to execute commands with elevated privileges using the command pkexec followed by the command intended to be executed (with root permission). 
-
-### How to use:
-
-```
-./PwnKit
-```
-
-``` 
-# whoami
-root
-``` 
-
-Further explanations: https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034
 
 ## Dirty Pipe - a vulnerability in the Linux kernel since 5.8 which allows overwriting data in arbitrary read-only files (CVE-2022-0847)
 
@@ -35,3 +19,22 @@ While easier to exploit, it is similar to an older vulnerability disclosed in 20
 # whoami
 root
 ``` 
+
+Further explanation: https://dirtypipe.cm4all.com/
+
+## PwnKit: Local Privilege Escalation Vulnerability Discovered in polkit’s pkexec (CVE-2021-4034)
+
+Polkit (formerly PolicyKit) is a component for controlling system-wide privileges in Unix-like operating systems. It provides an organized way for non-privileged processes to communicate with privileged processes. It is also possible to use polkit to execute commands with elevated privileges using the command pkexec followed by the command intended to be executed (with root permission). 
+
+### How to use:
+
+```
+./PwnKit
+```
+
+``` 
+# whoami
+root
+``` 
+
+Further explanations: https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034
