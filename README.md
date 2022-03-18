@@ -8,7 +8,9 @@ Polkit (formerly PolicyKit) is a component for controlling system-wide privilege
 
 How to use:
 
-```./PwnKit```
+```
+./PwnKit
+```
 
 ``` 
 # whoami
